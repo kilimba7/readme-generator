@@ -2,9 +2,8 @@
 
 ## Description
 
-- I created this applicatioin so that I could generate a professional readme file. 
-- I built this project because it will help stream line my process for creating a readme while allowing me to keep the same professional structure.
-- 
+I created this applicatioin so that I could generate a professional readme file. I built this project because it will help stream line my process for creating a readme while allowing me to keep the same professional structure.
+
 
 - What did you learn?
 

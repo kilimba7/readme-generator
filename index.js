@@ -44,14 +44,35 @@ const questions = () => {
     },
     {
         type: 'input',
+        name: 'credits',
+        message: 'Please enter any credits if applicable'
+    },
+    {
+        type: 'input',
+        name: 'license',
+        message: 'Please select a license'
+    },
+    {
+        type: 'input',
+        name: 'badges',
+        message: 'Please enter any badges that you used'
+    },
+    {
+        type: 'input',
+        name: 'features',
+        message: 'Please enter any features that you used'
+    },
+    {
+        type: 'input',
         name: 'contribution',
         message: 'Please enter any contributors if applicable'
     },
     {
         type: 'input',
-        name: 'testing',
+        name: 'tests',
         message: 'Please provide examples on how to run your application'
     }
+    
     ]);
 };
 
