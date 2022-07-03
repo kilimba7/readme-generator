@@ -6,7 +6,7 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents:
-  - Installation
+  - [Installation](#installation)
   - Usage
   - Credits
   - License
