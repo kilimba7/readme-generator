@@ -1,7 +1,7 @@
 // Packages needed for this application
 const fs = require ('fs');
 const inquirer = require ('inquirer');
-const generateMarkdown = require('./Develop/utils/generateMarkdown');
+const generatePage = require('./Develop/utils/generateMarkdown');
 
 
 // Created an array of questions for user input
@@ -56,18 +56,20 @@ const questions = () => {
 };
 
 
+    
+
+
 // TODO: Create a function to write README file
 questions()
-.then(data => {
-    const pageHtml = generatePage(data);
+.then(readmeData => {
+    const projectReadme = generatePage(readmeData);
 
-    fs.writeFile('./index.html', pageHtml, err => {
+    fs.writeFile('./projectREADME.md', projectReadme, err => {
         if (err) throw new Error (err);
 
         console.log('README created! Check out the index to see it displayed!')
     });
 });
-
 
 
 // // TODO: Create a function to initialize app

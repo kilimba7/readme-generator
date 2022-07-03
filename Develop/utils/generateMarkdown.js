@@ -10,58 +10,68 @@
 
 // }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-const renderLicenseSection = (license, licenseBadge, licenseLink) => {
-  if (!licenseSection) {
-    return '';
-  }
+// // TODO: Create a function that returns the license section of README
+// // If there is no license, return an empty string
+// const renderLicenseSection = (license, licenseBadge, licenseLink) => {
+//   if (!licenseSection) {
+//     return '';
+//   }
 
-  return `
-    <section id="license">
-      <h2> License Section ${license} </h2>
-      <p>Is this working?</p>
-      <a>
-      ${licenseLink}
-      <span>${licenseBadge}</span>
-      </a>
-    </section>
-  `;
-};
+//   return `
+//     <section id="license">
+//       <h2> License Section ${license} </h2>
+//       <p>Is this working?</p>
+//       <a>
+//       ${licenseLink}
+//       <span>${licenseBadge}</span>
+//       </a>
+//     </section>
+//   `;
+// };
 
-// Created a function to generate markdown for README
 
-module.exports = generateMarkdown => {
 
-  const { data, description, ...license } = generateMarkdown;
-  return `
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Demo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-  </head>
+// // create the projects section
+// const generateQuestions = questionsArr => {
+//   const questionsHtmlArr = questionsArr.map(({ title, description, installation}) => {
+//       return `
+//           <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+//             <h3 class="portfolio-item-title text-light">${title}</h3>
+//             <h5 class="portfolio-languages">
+//               Built With:
+//             </h5>
+//             <p>${description}</p>
+//             <p>${installation}</p>
+//           </div>
+//         `;
+//     });
   
-  <body>
-    <header>
-      <div class="container flex-row justify-space-between align-center py-3">
-        <h1 class="page-title text-secondary bg-dark py-2 px-3">${data.title}</h1>
-        <nav class="flex-row">
-        </nav>
-      </div>
-    </header>
-    <main class="container my-5">
-      
-    </main>
-    <footer class="container text-center py-3">
-      <h3 class="text-dark">&copy; ${new Date().getFullYear()} by ${data.title}</h3>
-    </footer>
-  </body>
-  </html>
-  `;
-};
+//     return `
+//       <section class="my-3" id="portfolio">
+//         <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
+//         <div class="flex-row justify-space-between">
+//         ${questionsHtmlArr.join('')}
+//         </div>
+//       </section>
+//     `;
+//   };
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  return `# ${data.title}
+  
+  Description:
+  # ${data.description}
+
+  Installation:
+  # ${data.installation}
+
+  Usage:
+  # ${data.usage}
+
+  Contribution:
+  # ${data.contribution}
+`;
+}
+
+
+module.exports = generateMarkdown;
