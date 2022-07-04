@@ -35,17 +35,12 @@ const questions = () => {
     {
         type: 'input',
         name: 'installation',
-        message: 'Please enter any installation instructions if applicable'
+        message: 'What are the steps required to install your project?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Please enter any usage information if applicable'
-    },
-    {
-        type: 'input',
-        name: 'credits',
-        message: 'Please enter any credits if applicable'
+        message: 'Provide instructions and examples for use'
     },
     {
         type: 'list',
@@ -59,18 +54,13 @@ const questions = () => {
     },
     {
         type: 'input',
-        name: 'features',
-        message: 'Please enter any features that you used'
-    },
-    {
-        type: 'input',
         name: 'contribution',
-        message: 'Please enter any contributors if applicable'
+        message: 'If you would like other developers to contribute, you can include guidelines for how to do so'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Please provide examples on how to run your application'
+        message: 'Write tests for your application. Then provide examples on how to run them here.'
     },
     {
         type: 'input',
@@ -102,11 +92,7 @@ const questions = () => {
     ]);
 };
 
-
-    
-
-
-// TODO: Create a function to write README file
+// Create a function to write README file
 questions()
 .then(readmeData => {
     const projectReadme = generatePage(readmeData);
@@ -118,9 +104,3 @@ questions()
     });
 });
 
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();

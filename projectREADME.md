@@ -1,35 +1,28 @@
-# Readme
+# README Generator
 
-  ## Description:
-  sdfsfd
+  ## Description
+  I created this applicatioin so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
 
-  [![License](https://img.shields.io/badge/License-Apache%20License%202.0-red)](https://opensource.org/licenses/Apache-2.0)
+  
 
   ## Table of Contents:
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
 
 
   ## Installation
-  
+  Clone repository and install inquirer. 
 
   ## Usage
   
-  
-  ## Credits
-  
 
   ## License
-  Apache License 2.0: https://opensource.org/licenses/Apache-2.0
-
-
-  ## Features
-  dsfds
+  
 
   ## Contributing
   
@@ -38,5 +31,5 @@
   
 
   ## Questions
-  - Github Username: https://github.com/Kilimba7
-  - Please feel free to email me: sf
+  - Github Username: https://github.com/kilimba7
+  - Please feel free to email me: dyaul003@umn.edu

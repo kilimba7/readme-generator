@@ -2,31 +2,19 @@
 
 ## Description
 
-I created this applicatioin so that I could generate a professional readme file. I built this project because it will help stream line my process for creating a readme while allowing me to keep the same professional structure.
+I created this applicatioin so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
 
 
-- What did you learn?
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Clone repository and install inquirer. 
+
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
