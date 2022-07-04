@@ -59,11 +59,6 @@ const questions = () => {
     },
     {
         type: 'input',
-        name: 'badges',
-        message: 'Please enter any badges that you used'
-    },
-    {
-        type: 'input',
         name: 'features',
         message: 'Please enter any features that you used'
     },

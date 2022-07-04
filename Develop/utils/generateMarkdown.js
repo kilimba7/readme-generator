@@ -6,13 +6,13 @@ function renderLicenseBadge(license) {
     return ''
   
   } else if (license === 'Apache License 2.0' ) { 
-    return "![License: Apache License 2.0] ('https://img.shields.io/badge/License-Apache%20License%202.0-red') "
+    return "[![License: Apache License 2.0]('https://img.shields.io/badge/License-Apache%20License%202.0-red')]"
  
   } else if (license === 'The MIT License' ) { 
-    return "![License: The MIT License] ('https://img.shields.io/badge/License-MIT-blue) "
+    return "[![License: The MIT License]('https://img.shields.io/badge/License-MIT-blue)]"
   
   } else if (license === 'GNU General Public License 3.0' ) { 
-    return "![License: GNU General Public License 3.0] ('https://img.shields.io/badge/License-GNU%20General%20Public%20License%203.0-brightgreen') "
+    return "[![License: GNU General Public License 3.0]('https://img.shields.io/badge/License-GNU%20General%20Public%20License%203.0-brightgreen')]"
   }
   
 };
@@ -46,39 +46,37 @@ function generateMarkdown(data) {
 
   ## Table of Contents:
   - [Installation](#installation)
-  - [Usage] (#usage)
+  - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
-  - [Tests] (#tests)
-  - [Questions] (#questions)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 
 
-  ## Installation:
+  ## Installation
   ${data.installation}
 
-  ## Usage:
+  ## Usage
   ${data.usage}
   
-  ## Credits:
+  ## Credits
   ${data.credits}
 
-  ## License:
+  ## License
   ${renderLicenseLink(data.license)}
 
-  ## Badges:
-  ${data.badges}
 
-  ## Features:
+  ## Features
   ${data.features}
 
-  ## Contributing:
+  ## Contributing
   ${data.contribution}
 
-  ## Tests:
+  ## Tests
   ${data.tests}
 
-  ## Questions:
+  ## Questions
   - Github Username: https://github.com/${data.github}
   - Please feel free to email me: ${data.email}
 `;

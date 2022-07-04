@@ -1,44 +1,42 @@
-# ReadMe
+# ReadME PRo
 
   ## Description:
-  I like to write stuff 
+  I like to write tstuff
 
-  ![License: The MIT License] ('https://img.shields.io/badge/License-MIT-blue) 
+  [![License: GNU General Public License 3.0]('https://img.shields.io/badge/License-GNU%20General%20Public%20License%203.0-brightgreen')]
 
   ## Table of Contents:
   - [Installation](#installation)
-  - [Usage] (#usage)
+  - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
-  - [Tests] (#tests)
-  - [Questions] (#questions)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 
 
-  ## Installation:
-  None
-
-  ## Usage:
-  none
+  ## Installation
   
-  ## Credits:
+
+  ## Usage
+  
+  
+  ## Credits
+  
+
+  ## License
+  GNU General Public License 3.0: //https://opensource.org/licenses/GPL-3.0
+
+
+  ## Features
   None
 
-  ## License:
-  The MIT License: https://opensource.org/licenses/mit
+  ## Contributing
+  
 
-  ## Badges:
-  no
+  ## Tests
+  
 
-  ## Features:
-  ni
-
-  ## Contributing:
-  ni
-
-  ## Tests:
-  nibujhb
-
-  ## Questions:
+  ## Questions
   - Github Username: https://github.com/kilimba7
-  - Please feel free to email me: dyaul003@umn.edu
+  - Please feel free to email me: asdasdsad
