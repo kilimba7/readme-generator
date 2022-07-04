@@ -19,6 +19,8 @@
   Clone repository and install inquirer.
 
   ## Usage
+
+  Link to demo: https://drive.google.com/file/d/1cbyOmLZp9Pc_gpOowk9IeRcxXOUgHDR6/view
   
 
   ## License
