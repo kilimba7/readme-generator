@@ -2,7 +2,7 @@
 
 ## Description
 
-I created this applicatioin so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
+I created this application so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
 
 
 

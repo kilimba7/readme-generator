@@ -1,9 +1,9 @@
 # README Generator
 
   ## Description
-  I created this applicatioin so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
+  I created this application so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
 
-  
+  ![License](https://img.shields.io/badge/License-NONE-inactive)
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -16,7 +16,7 @@
 
 
   ## Installation
-  Clone repository and install inquirer. 
+  Clone repository and install inquirer.
 
   ## Usage
   
@@ -28,7 +28,7 @@
   
 
   ## Tests
-  
+  N/A
 
   ## Questions
   - Github Username: https://github.com/kilimba7
