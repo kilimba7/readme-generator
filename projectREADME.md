@@ -1,9 +1,9 @@
-# README Generator
+# README Example
 
   ## Description
-  I created this application so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
+  This is a test
 
-  [![License](https://img.shields.io/badge/License-NONE-inactive)](https://choosealicense.com/no-permission/)
+  [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/mit)
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -16,20 +16,20 @@
 
 
   ## Installation
-  Clone repository and install inquirer.
+  Install inquirer
 
   ## Usage
-  
+  download this video
 
   ## License
-  No license used: https://choosealicense.com/no-permission/
+  The MIT License: https://opensource.org/licenses/mit
 
   ## Contributing
   N/A
 
   ## Tests
-  N/A
+  make sure it's in the command line
 
   ## Questions
   - Github Username: https://github.com/kilimba7
-  - Please feel free to email me: dyaul003@umn.edu
+  - Please feel free to email me: kilimba7@yahoo.com
