@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'None') {
-    return 'Do not want to choose a license: https://choosealicense.com/no-permission/'
+    return 'No license used: https://choosealicense.com/no-permission/'
   
   } else if (license === 'Apache License 2.0' ) { 
     return 'Apache License 2.0: https://opensource.org/licenses/Apache-2.0'

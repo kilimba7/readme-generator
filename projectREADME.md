@@ -16,19 +16,19 @@
 
 
   ## Installation
-  
+  Clone repository and install inquirer.
 
   ## Usage
   
 
   ## License
-  Do not want to choose a license: https://choosealicense.com/no-permission/
+  No license used: https://choosealicense.com/no-permission/
 
   ## Contributing
-  
+  N/A
 
   ## Tests
-  
+  N/A
 
   ## Questions
   - Github Username: https://github.com/kilimba7
