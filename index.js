@@ -48,9 +48,14 @@ const questions = () => {
         message: 'Please enter any credits if applicable'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'Please select a license'
+        message: 'Please select a license to use if applicable',
+        choices: [
+        'Apache License 2.0',
+        'The MIT License',
+        'GNU General Public License 3.0',
+        'None']
     },
     {
         type: 'input',
@@ -71,6 +76,32 @@ const questions = () => {
         type: 'input',
         name: 'tests',
         message: 'Please provide examples on how to run your application'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub Username (Required)',
+        validate: githubInput => {
+            if (githubInput) {
+              return true;
+            } else {
+              console.log('Please enter your GitHub username!');
+              return false;
+            }
+          }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide an email for a point of contact(Required)!',
+        validate: emailInput => {
+            if (emailInput) {
+              return true;
+            } else {
+              console.log('Please enter your GitHub username!');
+              return false;
+            }
+          }
     }
     
     ]);

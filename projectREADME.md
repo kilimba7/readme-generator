@@ -1,39 +1,44 @@
-# sfdsfdsf
-  
+# ReadMe
+
   ## Description:
-  sdfsdfsdf
+  I like to write stuff 
+
+  ![License: The MIT License] ('https://img.shields.io/badge/License-MIT-blue) 
 
   ## Table of Contents:
   - [Installation](#installation)
-  - Usage
-  - Credits
-  - License
-  - Badges
-  - Features
+  - [Usage] (#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Tests] (#tests)
+  - [Questions] (#questions)
 
 
 
   ## Installation:
-  sdfsdf
+  None
 
   ## Usage:
-  sdfsdf
+  none
   
   ## Credits:
-  dsfsdf
+  None
 
   ## License:
-  dsfsdf
-  undefined
+  The MIT License: https://opensource.org/licenses/mit
 
   ## Badges:
-  dsfsdf
+  no
 
   ## Features:
-  sdfsdf
+  ni
 
-  ## How to Contribute:
-  sdfsdf
+  ## Contributing:
+  ni
 
   ## Tests:
-  sdffdsf
+  nibujhb
+
+  ## Questions:
+  - Github Username: https://github.com/kilimba7
+  - Please feel free to email me: dyaul003@umn.edu
