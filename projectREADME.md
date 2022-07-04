@@ -1,9 +1,9 @@
-# README Generator
+# readme
 
   ## Description
-  I created this application so that I could generate a professional readme file and help streamline my process. This application also allows me to keep the same professional structure. One of the challenges I faced was getting the badges to show up, and being able to link them.
+  esfsdf
 
-  ![License](https://img.shields.io/badge/License-NONE-inactive)
+  [![License](https://img.shields.io/badge/License-NONE-inactive)(https://choosealicense.com/no-permission/)]
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -16,19 +16,19 @@
 
 
   ## Installation
-  Clone repository and install inquirer.
+  
 
   ## Usage
   
 
   ## License
-  
+  Do not want to choose a license: https://choosealicense.com/no-permission/
 
   ## Contributing
   
 
   ## Tests
-  N/A
+  
 
   ## Questions
   - Github Username: https://github.com/kilimba7

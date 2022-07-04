@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   
   if (license === 'None') {
-    return "![License](https://img.shields.io/badge/License-NONE-inactive)"
+    return "[![License](https://img.shields.io/badge/License-NONE-inactive)(https://choosealicense.com/no-permission/)]"
   
   } else if (license === 'Apache License 2.0' ) { 
     return "[![License](https://img.shields.io/badge/License-Apache%20License%202.0-red)](https://opensource.org/licenses/Apache-2.0)"
@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'None') {
-    return ''
+    return 'Do not want to choose a license: https://choosealicense.com/no-permission/'
   
   } else if (license === 'Apache License 2.0' ) { 
     return 'Apache License 2.0: https://opensource.org/licenses/Apache-2.0'
