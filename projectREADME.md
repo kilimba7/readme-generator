@@ -1,9 +1,9 @@
-# README Example
+# Readme example
 
   ## Description
-  This is a test
+  This is a testg
 
-  [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/mit)
+  [![License](https://img.shields.io/badge/License-GNU%20General%20Public%20License%203.0-brightgreen)](https://opensource.org/licenses/GPL-3.0)
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -19,16 +19,16 @@
   Install inquirer
 
   ## Usage
-  download this video
+  None
 
   ## License
-  The MIT License: https://opensource.org/licenses/mit
+  GNU General Public License 3.0: https://opensource.org/licenses/GPL-3.0
 
   ## Contributing
   N/A
 
   ## Tests
-  make sure it's in the command line
+  Please run node index first
 
   ## Questions
   - Github Username: https://github.com/kilimba7
