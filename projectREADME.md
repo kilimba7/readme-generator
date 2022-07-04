@@ -1,9 +1,9 @@
-# ReadMe
+# Readme
 
   ## Description:
-  sdfdsgdsr
+  sdfsfd
 
-  [![License]('https://img.shields.io/badge/License-Apache%20License%202.0-red')](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-Apache%20License%202.0-red)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -29,14 +29,14 @@
 
 
   ## Features
-  sdfsdf
+  dsfds
 
   ## Contributing
-  sdfdsf
+  
 
   ## Tests
-  sdfsdf
+  
 
   ## Questions
-  - Github Username: https://github.com/kilimba7
-  - Please feel free to email me: saf
+  - Github Username: https://github.com/Kilimba7
+  - Please feel free to email me: sf
