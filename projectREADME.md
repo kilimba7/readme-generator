@@ -1,9 +1,9 @@
-# ReadME PRo
+# Readme
 
   ## Description:
-  I like to write tstuff
+  saefsefe
 
-  [![License: GNU General Public License 3.0]('https://img.shields.io/badge/License-GNU%20General%20Public%20License%203.0-brightgreen')]
+  [![License: Apache License 2.0]('https://img.shields.io/badge/License-Apache%20License%202.0-red')](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -16,7 +16,7 @@
 
 
   ## Installation
-  
+  sefef
 
   ## Usage
   
@@ -25,11 +25,11 @@
   
 
   ## License
-  GNU General Public License 3.0: //https://opensource.org/licenses/GPL-3.0
+  Apache License 2.0: https://opensource.org/licenses/Apache-2.0
 
 
   ## Features
-  None
+  
 
   ## Contributing
   
@@ -39,4 +39,4 @@
 
   ## Questions
   - Github Username: https://github.com/kilimba7
-  - Please feel free to email me: asdasdsad
+  - Please feel free to email me: asdasd

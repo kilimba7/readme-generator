@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
     return ''
   
   } else if (license === 'Apache License 2.0' ) { 
-    return "[![License: Apache License 2.0]('https://img.shields.io/badge/License-Apache%20License%202.0-red')]"
+    return "[![License: Apache License 2.0]('https://img.shields.io/badge/License-Apache%20License%202.0-red')](https://opensource.org/licenses/Apache-2.0)"
  
   } else if (license === 'The MIT License' ) { 
     return "[![License: The MIT License]('https://img.shields.io/badge/License-MIT-blue)]"
@@ -24,13 +24,13 @@ function renderLicenseLink(license) {
     return ''
   
   } else if (license === 'Apache License 2.0' ) { 
-    return 'Apache License 2.0: //https://opensource.org/licenses/Apache-2.0'
+    return 'Apache License 2.0: https://opensource.org/licenses/Apache-2.0'
  
   } else if (license === 'The MIT License' ) { 
     return 'The MIT License: https://opensource.org/licenses/mit'
   
   } else if (license === 'GNU General Public License 3.0' ) { 
-    return 'GNU General Public License 3.0: //https://opensource.org/licenses/GPL-3.0'
+    return 'GNU General Public License 3.0: https://opensource.org/licenses/GPL-3.0'
   }
 }
 
