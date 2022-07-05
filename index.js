@@ -83,7 +83,7 @@ const questions = () => {
             if (emailInput) {
               return true;
             } else {
-              console.log('Please enter your GitHub username!');
+              console.log('Please enter a valid email!');
               return false;
             }
           }
